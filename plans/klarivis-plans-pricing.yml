@@ -1,0 +1,20 @@
+generated: '2026-08-23'
+method: searched
+source: https://klarivis.com/ (full page sitemap walked — https://klarivis.com/page-sitemap.xml)
+note: >-
+  KlariVis publishes no pricing at all. The page sitemap contains no pricing, plans or
+  packages page, and every commercial call to action on the site routes to a demo
+  request or the contact form. Pricing is quoted per institution through sales, which
+  is normal for a core-integrated banking analytics platform sold to community banks
+  and credit unions. plan_count is an honest zero, not an unfilled field.
+plan_count: 0
+pricing_model: contact-sales
+public_pricing: false
+plans: []
+evidence:
+- url: https://klarivis.com/page-sitemap.xml
+  status: 200
+  detail: no pricing/plans page present in the sitemap
+- url: https://klarivis.com/schedule-a-demo/
+  status: 200
+  detail: demo request is the only published path to a quote

@@ -1,0 +1,52 @@
+generated: '2026-08-23'
+method: probed
+source: live GET of /.well-known/* on every host in apis.yml
+note: >-
+  Every /.well-known/ path probed on both KlariVis hosts returned HTTP 404. The
+  marketing site (klarivis.com, WordPress) and the Freshdesk-hosted support portal
+  (support.klarivis.com) both return their own 404 page for unknown paths, and a
+  random control path returned the same 404 with the same byte count, so these are
+  genuine negatives rather than a catch-all answering 200. No WellKnown or
+  SecurityTxt pointer is emitted because nothing was served.
+hit_count: 0
+hosts:
+- host: https://klarivis.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+  soft_404_control:
+    path: /.well-known/api-evangelist-control-probe
+    status: 404
+    bytes: 68571
+- host: https://support.klarivis.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+  soft_404_control:
+    path: /.well-known/api-evangelist-control-probe
+    status: 404
+    bytes: 1815

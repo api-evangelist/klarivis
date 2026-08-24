@@ -1,0 +1,19 @@
+generated: '2026-08-23'
+method: searched
+source: https://klarivis.com/ and https://support.klarivis.com/support/home
+note: >-
+  No rate limits are documented because KlariVis publishes no API. There is no
+  developer portal, API reference or machine-readable contract on any KlariVis host,
+  so there are no published quotas, no throttling headers and no documented status
+  code on exhaustion. limit_count is an honest zero.
+limit_count: 0
+rate_limits: []
+headers: []
+evidence:
+- url: https://klarivis.com/openapi.json
+  status: 404
+- url: https://klarivis.com/api-docs
+  status: 404
+- url: https://support.klarivis.com/support/solutions
+  status: 200
+  detail: public Freshdesk knowledge base exposes only a "Getting started with us" folder; no API section

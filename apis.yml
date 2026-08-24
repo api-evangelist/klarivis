@@ -1,17 +1,34 @@
 aid: klarivis
 name: KlariVis
-description: 'KlariVis is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'KlariVis is an enterprise data analytics platform built for community
+  banks and credit unions by former community bankers. It ingests data nightly from
+  a financial institution''s core and ancillary systems into a secure Microsoft Azure
+  data warehouse, then aggregates and visualizes it through role-based interactive
+  dashboards covering deposits, loans, transactional intelligence, profitability and
+  funds transfer pricing, plus a Report Builder for bespoke charts and reports. The
+  company was founded in 2019 in Roanoke, Virginia by Kim Snyder, raised an $11M Series
+  B led by Blueprint Equity in January 2024, and serves 100+ financial institutions.
+  KlariVis is a consumer of core banking APIs rather than a publisher of one: it operates
+  no public developer program, publishes no API documentation or machine-readable
+  contract, and integration work is handled through its implementation team.'
+image: https://klarivis.com/wp-content/uploads/2024/05/Klarivis_logo_color_w_partial-K-KO.png
 url: https://raw.githubusercontent.com/api-evangelist/klarivis/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-08-23'
 modified: '2026-08-23'
 tags:
 - Company
+- Banking
+- Financial Services
+- Data Analytics
+- Business Intelligence
+- Community Banking
+- Credit Unions
+- Dashboards
+- Reporting
+- Data Warehouse
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +36,67 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/klarivis-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://klarivis.com/
+- type: ProductOverview
+  url: https://klarivis.com/klarivis-advantage/
+- type: Support
+  url: https://support.klarivis.com/support/home
+- type: Blog
+  url: https://klarivis.com/insights/
+- type: BlogRSS
+  url: https://klarivis.com/feed/
+- type: PrivacyPolicy
+  url: https://klarivis.com/privacy-policy/
+- type: CookiePolicy
+  url: https://klarivis.com/cookie-policy/
+- type: Contact
+  url: https://klarivis.com/contact/
+- type: Demo
+  url: https://klarivis.com/schedule-a-demo/
+- type: Careers
+  url: https://klarivis.com/careers/
+- type: About
+  url: https://klarivis.com/company/
+- type: Leadership
+  url: https://klarivis.com/our-leadership/
+- type: CaseStudies
+  url: https://klarivis.com/success-stories/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/klarivis
+- type: TrustCenter
+  url: security/klarivis-trust-center.yml
+- type: Compliance
+  url: security/klarivis-trust-center.yml
+- type: LLMsTxt
+  url: llms/klarivis-llms.txt
+- type: Plans
+  url: plans/klarivis-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/klarivis-rate-limits.yml
+x-enrichment:
+  date: '2026-08-23'
+  status: minimal
+  artifacts_added: 7
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    KlariVis sells a login-only banking analytics dashboard to community banks and
+    credit unions and publishes no developer surface at all — api., docs. and
+    developer.klarivis.com are NXDOMAIN, the WordPress site's own page sitemap lists
+    no API or integrations page, and core-system integration is done by the KlariVis
+    implementation team during onboarding rather than through published credentials.
+  evidence:
+  - url: https://klarivis.com/openapi.json
+    status: 404
+  - url: https://klarivis.com/.well-known/api-catalog
+    status: 404
+  - url: https://klarivis.com/page-sitemap.xml
+    status: 200
+  - url: https://support.klarivis.com/support/solutions
+    status: 200
+  checked: '2026-08-23'

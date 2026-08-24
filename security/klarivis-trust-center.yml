@@ -1,0 +1,38 @@
+generated: '2026-08-23'
+method: searched
+source: https://klarivis.com/security-first/
+note: >-
+  KlariVis publishes a single public security page rather than a dedicated trust
+  center (there is no trust.klarivis.com — DNS returns NXDOMAIN). The page names one
+  attestation, SOC 2 Type 2, and describes the controls below. No certification
+  report, sub-processor list, pen-test summary or trust-portal request flow is
+  published; the audit report is not downloadable from the public site.
+trust_center:
+  published: true
+  dedicated_portal: false
+  url: https://klarivis.com/security-first/
+  http_status: 200
+certifications:
+- name: SOC 2 Type 2
+  status: claimed
+  evidence: https://klarivis.com/security-first/
+  report_available_publicly: false
+  note: >-
+    Stated on the security page as maintained internal controls audited to SOC 2
+    Type 2. No report, date or auditor is named publicly.
+controls_published:
+- control: cloud infrastructure
+  detail: Hosted on Microsoft Azure
+- control: encryption
+  detail: Data encrypted at rest and in transit
+- control: authentication
+  detail: Multi-factor authentication and single sign-on supported
+- control: testing
+  detail: Periodic penetration testing
+not_published:
+- ISO 27001
+- PCI DSS
+- HIPAA
+- FedRAMP
+- public sub-processor list
+- public pen-test summary

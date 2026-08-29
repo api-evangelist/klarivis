@@ -11,6 +11,17 @@ description: 'KlariVis is an enterprise data analytics platform built for commun
   KlariVis is a consumer of core banking APIs rather than a publisher of one: it operates
   no public developer program, publishes no API documentation or machine-readable
   contract, and integration work is handled through its implementation team.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://klarivis.com/wp-content/uploads/2024/05/Klarivis_logo_color_w_partial-K-KO.png
 url: https://raw.githubusercontent.com/api-evangelist/klarivis/refs/heads/main/apis.yml
 x-type: company

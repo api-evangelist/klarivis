@@ -1,0 +1,21 @@
+{
+  "repo": "klarivis",
+  "feeds": [
+    {
+      "source": "https://support.klarivis.com/support/home",
+      "feed_url": "https://support.klarivis.com/support/home",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://klarivis.com/insights/",
+      "feed_url": "https://klarivis.com/insights/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-08-30T22:33:40Z"
+}

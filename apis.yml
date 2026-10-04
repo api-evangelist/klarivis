@@ -45,7 +45,7 @@ modified: '2026-08-23'
 tags:
 - Company
 - Banking
-- Financial-Services
+- Financial Services
 - Data Analytics
 - Business Intelligence
 - Community Banking
@@ -64,6 +64,7 @@ tags_raw:
 - Dashboards
 - Reporting
 - Data Warehouse
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane

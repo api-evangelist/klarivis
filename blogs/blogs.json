@@ -9,11 +9,11 @@
       "method": "discovered"
     },
     {
-      "source": "https://support.klarivis.com/support/home",
-      "feed_url": "https://support.klarivis.com/support/home",
+      "source": "https://klarivis.com/feed/",
+      "feed_url": "https://klarivis.com/feed/",
       "title": "",
       "saved": 0,
-      "method": "none"
+      "method": "feed"
     },
     {
       "source": "https://klarivis.com/insights/feed/",
@@ -21,8 +21,15 @@
       "title": "",
       "saved": 0,
       "method": "feed"
+    },
+    {
+      "source": "https://support.klarivis.com/support/home",
+      "feed_url": "https://support.klarivis.com/support/home",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
-  "post_count": 13,
-  "fetched": "2026-10-03T12:30:02Z"
+  "post_count": 14,
+  "fetched": "2026-10-10T13:15:00Z"
 }

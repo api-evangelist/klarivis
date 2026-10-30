@@ -64,5 +64,96 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-KlariVis is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+KlariVis is an enterprise data analytics platform built for community banks and credit unions by former community bankers. It ingests data nightly from a financial institution's core and ancillary systems into a secure Microsoft Azure data warehouse, then aggregates and visualizes it through role-based interactive dashboards covering deposits, loans, transactional intelligence, profitability and funds transfer pricing, plus a Report Builder for bespoke charts and reports. The company was founded in 2019 in Roanoke, Virginia by Kim Snyder, raised an $11M Series B led by Blueprint Equity in January 2024, and serves 100+ financial institutions. KlariVis is a consumer of core banking APIs rather than a publisher of one: it operates no public developer program, publishes no API documentation or machine-readable contract, and integration work is handled through its implementation team.
+
+**Areas:** Company · Banking · Financial Services · Data Analytics · Business Intelligence · Community Banking · Credit Union · Dashboards · Reporting · Data Warehouse
+
+## KlariVis on APIs.io
+
+Everything profiled for KlariVis is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/klarivis/](https://apis.io/providers/klarivis/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Klarivis Domain Security](https://apis.io/security/klarivis/klarivis-domain-security/)
+- [Klarivis Trust Center](https://apis.io/security/klarivis/klarivis-trust-center/)
+- [Klarivis Vulnerability Disclosure](https://apis.io/security/klarivis/klarivis-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Klarivis Plans Pricing](https://apis.io/plans/klarivis/klarivis-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Klarivis Rate Limits](https://apis.io/rate-limits/klarivis/klarivis-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://klarivis.com/)
+- [Support](https://support.klarivis.com/support/home)
+- [Blog](https://klarivis.com/insights/)
+- [Privacy policy](https://klarivis.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 10.3** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 49.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 26.3 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.8** — Banking & Open Finance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/klarivis/](https://apis.io/providers/klarivis/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for KlariVis: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/klarivis/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
